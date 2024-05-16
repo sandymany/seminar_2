@@ -1,4 +1,4 @@
-# seminar_2
+# Turtle invader
 ## Koraci za pokretanje igre
          
 	 Instalacija Pythona na linuxu:
