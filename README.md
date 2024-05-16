@@ -7,42 +7,20 @@
     Instalacija TKintera:
 ```sudo apt-get install python3-tk```
     
-    \item Preuzimanje koda s gita:
-    \begin{lstlisting}[language=python, frame=single]
-git clone https://github.com/sandymany/seminar_2.git
-    \end{lstlisting}
+    Preuzimanje koda s gita:
+```git clone https://github.com/sandymany/seminar_2.git```
 
-    \item Stvaranje i pokretanje virtualnog okruženja za Python:
-    \begin{lstlisting}[language=python, frame=single]
-python3 -m venv .venv
-source .venv/bin/activate
-    \end{lstlisting}
+    Stvaranje i pokretanje virtualnog okruženja za Python:
+```python3 -m venv .venv```
+```source .venv/bin/activate```
 
-    \item Instalacija potrebnih Python modula:
-    \begin{lstlisting}[language=python, frame=single]
-pip3 install -r requirements.txt
-    \end{lstlisting}
+    Instalacija potrebnih Python modula:
+```pip3 install -r requirements.txt```
 
-    \item Uštekati arduino u računalo i pokrenuti Arduino program
+    Uštekati arduino u računalo i pokrenuti Arduino program
 
-    \item Pomoću sljedeće naredbe možemo vidjeti listu spojenih uređaja:
-    \begin{lstlisting}[language=python, frame=single]
-ls /dev/cu.*
-    \end{lstlisting}
+   Pomoću sljedeće naredbe možemo vidjeti listu spojenih uređaja:
+```ls /dev/cu.*```
 
-    \item Pokretanje igre:
-    \begin{lstlisting}[language=python, frame=single]
-python3 scripts/sensor_game.py
-    \end{lstlisting}
-    
-    \end{enumerate}
-
-    Na slici ispod može se vidjeti demonstracija igre.
-
-        \begin{figure}[H]
-                \begin{center}
-                    \includegraphics[width=10cm]{slike/game.png}
-			         \caption{Demonstracija igre}
-			         \label{fig:Prikaz rotacija propelera}
-                 \end{center}
-	    \end{figure}
+    Pokretanje igre:
+```python3 scripts/sensor_game.py```
