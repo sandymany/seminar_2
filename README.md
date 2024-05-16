@@ -1,21 +1,11 @@
 # seminar_2
-\section{Koraci za pokretanje igre}
-
-        U ovom će poglavlju biti opisan postupak preuzimanja programskog koda i instalacija alata potrebnih za pokretanje igre.
-        Budući da je programski kod igre napisan u Pythonu, prvo je potrebno instalirati Python i potrebne module koji su prema dobroj praksi nabrojani u datoteci.
-
+## Koraci za pokretanje igre
          
-    \begin{enumerate}
+	 Instalacija Pythona na linuxu:
+   ```sudo apt-get install python3.6```
 
-    \item Instalacija Pythona na linuxu:
-    \begin{lstlisting}[language=python, frame=single]
-sudo apt-get install python3.6
-    \end{lstlisting}
-
-    \item Instalacija TKintera:
-    \begin{lstlisting}[language=python, frame=single]
-sudo apt-get install python3-tk
-    \end{lstlisting}
+    Instalacija TKintera:
+```sudo apt-get install python3-tk```
     
     \item Preuzimanje koda s gita:
     \begin{lstlisting}[language=python, frame=single]
